@@ -8,7 +8,6 @@ modalText.innerHTML = modalTextLayout;
 
 for (var i = 0; i < buttonsModal.length; i++) {
   buttonsModal[i].setAttribute("id", `button-${i}`);
-
   buttonsModal[i].onclick = handleShowText;
 }
 
