@@ -32,6 +32,10 @@ button {
   padding: 8px;
 }
 
+.modal-button {
+  padding: 8px;
+}
+
 .modal {
   display: none;
   position: fixed;
@@ -46,10 +50,10 @@ button {
 }
 
 #modal-content {
-  background-color: #fefefe;
+  background-color: var(--white);
   margin: auto;
   padding: 20px;
-  border: 1px solid #888;
+  border: 1px solid var(--gray);
   height: 200px;
   width: 100%;
   max-width: 300px;
